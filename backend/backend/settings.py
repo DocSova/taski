@@ -6,7 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('SECRET_KEY', '')
 
-DEBUG = os.getenv('DEBUG', '')
+DEBUG = False
 
 ALLOWED_HOSTS = ['localhost', 'drsova.zapto.org', '127.0.0.1']
 
